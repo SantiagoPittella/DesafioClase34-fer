@@ -1,0 +1,16 @@
+[
+  {
+    "title": "fideos",
+    "price": 200,
+    "stock": 1,
+    "thumbnail": "fideos.img",
+    "id": 1
+  },
+  {
+    "title": "fideos",
+    "price": 200,
+    "stock": 1,
+    "thumbnail": "fideos.img",
+    "id": 2
+  }
+]
