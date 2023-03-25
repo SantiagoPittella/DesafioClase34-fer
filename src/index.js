@@ -14,7 +14,7 @@ import config from "./config/config.js";
 import { logger } from "./middlewares/logger.js";
 import compression from "express-compression"
 //cambiar PORT
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 const app = express();
 //server socket.io
 const serverHttp = new httpServer(app);
