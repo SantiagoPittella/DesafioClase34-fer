@@ -34,7 +34,6 @@ initializeStrategy();
 app.use(passport.initialize());
 app.use(passport.session());
 //middlewares
-// app.use(compression())
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 //motores de plantillas
